@@ -1,0 +1,36 @@
+generalInformation:
+  serviceAdminEmail: gentlekobby@gmail.com
+  gheUsername: kobbyopoku
+  billingAccount: "1"
+  billingTeamName: "1"
+  gheToken: ""
+  adpAccessToken: ""
+jira:
+  adminToken: ""
+  projectKey: test
+  projectName: project-1
+  leadUsername: kobbyopoku
+projectInformation:
+  projectName: project-1
+  projectShortName: project-1
+  buildType: maven
+  testInstance: true
+  preprodInstance: true
+  uatInstance: true
+cloudService:
+  awsOrAzure: aks
+  deploymentLocation: azure_we1
+automationService:
+  jenkinsOrGithubActions: jenkins
+  jenkinsAdmin: ""
+  jenkinsDeveloper: ""
+  jenkinsKubernetesAccess: ""
+  kvUserOrGroupName: ""
+  nexusKubernetesAccess: ""
+gheOrganization:
+  organizationName: kobbyopoku
+  isNew: false
+testingTools:
+  sonarQube: false
+  adminGroup: ""
+  kubernetesAccess: ""
